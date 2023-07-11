@@ -4,12 +4,8 @@ plugins {
 }
 
 android {
-    namespace 'com.gc.utils'
+    namespace 'com.gc.base'
     compileSdk 32
-
-    buildFeatures {
-        viewBinding = true
-    }
 
     defaultConfig {
         minSdk 21
@@ -35,8 +31,6 @@ android {
 }
 
 dependencies {
-
-    api project(':base')
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
