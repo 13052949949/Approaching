@@ -59,3 +59,11 @@ fun String.isPureChinese(): Boolean {
     }
     return true
 }
+
+/**
+ * Determine whether a string is a pure number
+ */
+fun String.isPureNumber(): Boolean {
+    val pattern = Pattern.compile("[0-9]*")
+    return pattern.matcher(this).matches()
+}
