@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/customviewdrawing" />
             <option value="$PROJECT_DIR$/ktx" />
             <option value="$PROJECT_DIR$/resource" />
+            <option value="$PROJECT_DIR$/threadInteraction" />
             <option value="$PROJECT_DIR$/utils" />
           </set>
         </option>
